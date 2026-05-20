@@ -1,0 +1,130 @@
+/* estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.cuerpo {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+/* cabecera */
+.cabecera {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* navegador */
+.navegador {
+    background-color: #16213e;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegador-lista {
+    display: flex;
+    align-items: center;
+}
+
+.elementos-lista {
+    margin: 1rem;
+}
+
+.enlace-lista {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* main */
+.principal {
+    padding: 20px;
+    text-align: center;
+}
+
+.principal h2 {
+    font-size: 2rem;
+    color: #1a1a2e;
+    border-bottom: 3px solid #1a1a2e;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* tarjetas juegos */
+.contenedor-juegos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.tarjeta-juego {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.tarjeta-juego h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+}
+
+.tarjeta-juego p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}
+
+/* pie */
+.pie {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+/* sobre nosotros */
+.principal-sobre {
+    padding: 20px;
+    text-align: center;
+}
+
+.principal-sobre h2 {
+    font-size: 2rem;
+    color: #1a1a2e;
+    border-bottom: 3px solid #1a1a2e;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.tarjeta-sobre {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    display: block;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.tarjeta-sobre p {
+    margin: 8px 0;
+    font-size: 1rem;
+}
