@@ -58,6 +58,34 @@ He creado la base de la pagina web, donde he hecho el html con sus estilos y tam
 servidor con Node.js que se conecta a la base de datos y devuelve los juegos, para que asi la pagina
 muestre los datos de estos
 
+## Control de cambios (Tercer Checkpoint)
+
+### Añadido
+- Endpoint POST /videojuegos para añadir juegos
+- Endpoint PUT /videojuegos/:id para editar juegos
+- Endpoint DELETE /videojuegos/:id para eliminar juegos
+- Formulario en la pagina principal para añadir juegos
+- Botones de editar y borrar en cada tarjeta de juego
+
+### Modificado
+- El CORS del servidor para que funcionen el POST, PUT y DELETE, ya que daba error y no arrancaba el servidor
+- El javascript.js para añadir las funciones de editar, borrar y añadir
+
+### Eliminado
+- Nada
+
+### Justificacion de los cambios
+He añadido el CRUD completo para que la pagina no sea solo de consulta, sino que tambien 
+se puedan añadir juegos nuevos, editarlos y borrarlos. Tambien he tenido que tocar el CORS 
+del servidor porque si no los botones no funcionaban
+
+## Como ejecutar el proyecto
+
+1. Importar el fichero gamedex.sql en MySQL
+2. Instalar las dependencias con: npm install
+3. Arrancar el servidor con: node backend/server.js
+4. Abrir src/index.html con Live Server
+
 ## Aclaraciones
 1. Habia creado la primera parte en un repositorio personal mio, ya que no habia entendido
 el funcionamiento de GitHub Classroom. Por eso, solamente aparece un commit en el primer 
